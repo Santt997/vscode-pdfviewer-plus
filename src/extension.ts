@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext): void {
   
   context.subscriptions.push(
     vscode.window.registerCustomEditorProvider(
-      'pdf.preview',
+      'santt997.pdfPlusViewer',
       new PdfCustomProvider(extensionRoot),
       { webviewOptions: { retainContextWhenHidden: true } }
     )

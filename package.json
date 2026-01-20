@@ -2,7 +2,7 @@
   "name": "santt997-pdf-plus-my-viewer",
   "displayName": "pdf-plus-my-viewer - Santt997",
   "description": "Display pdf file in VSCode.",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "publisher": "Santt997",
   "engines": {
     "vscode": "^1.103.0"
@@ -31,7 +31,7 @@
     },
     "customEditors": [
       {
-        "viewType": "pdf.preview",
+        "viewType": "santt997.pdfPlusViewer",
         "displayName": "Pdf Preview",
         "selector": [
           {
@@ -126,7 +126,6 @@
     "ui"
   ],
   "activationEvents": [
-    "onCommand:pdf-viewer.open",
-    "onCustomEditor:pdf-viewer.pdfedit"
+    "onCommand:pdf-viewer.open"
   ]
 }
