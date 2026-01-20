@@ -1,8 +1,8 @@
 {
-  "name": "santt997.pdf-plus-my-viewer",
+  "name": "santt997-pdf-plus-my-viewer",
   "displayName": "pdf-plus-my-viewer - Santt997",
   "description": "Display pdf file in VSCode.",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "publisher": "Santt997",
   "engines": {
     "vscode": "^1.103.0"
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Santt997/vscode-pdfviewer-plus/issues"
   },
-  "main": "./out/src/extension",
+  "main": "./out/extension",
   "contributes": {
     "capabilities": {
       "untrustedWorkspaces": {
@@ -117,7 +117,7 @@
     "glob": "^11.0.3",
     "mocha": "10.1.0",
     "prettier": "2.0.4",
-    "typescript": "5.9.2",
+    "typescript": "^5.9.2",
     "vsce": "2.15.0",
     "vscode-dts": "0.3.1",
     "vscode-test": "1.3.0"
