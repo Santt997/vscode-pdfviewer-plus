@@ -1,8 +1,8 @@
 {
   "name": "santt997-pdf-plus-my-viewer",
-  "displayName": "pdf-plus-my-viewer - Santt997",
-  "description": "Display pdf file in VSCode.",
-  "version": "1.2.9",
+  "displayName": "PDF Viewer Plus - Enhanced Fork",
+  "description": "Enhanced PDF viewer for VSCode with page deletion, advanced navigation, and additional features. Fork of vscode-pdfviewer with extended functionality.",
+  "version": "1.3.0",
   "publisher": "Santt997",
   "engines": {
     "vscode": "^1.103.0"
